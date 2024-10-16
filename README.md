@@ -198,13 +198,13 @@ print(TestList)
 
 🖋 **문제 풀이** <br>
  map 함수와 lambda 함수를 사용하여 리스트의 각 요소에 100을 더하는 예제<br>
-1. 초기 리스트: TestList에 [1, 2, 3, 4, 5]를 할당합니다.<br>
+1. 초기 리스트: TestList에 [1, 2, 3, 4, 5]를 할당.<br>
 2. map과 lambda 사용<br>
 - map 함수는 주어진 함수를 리스트의 각 요소에 적용합니다.<br>
-- lambda num: num + 100는 익명 함수로, 입력된 num에 100을 더하는 기능을 합니다.<br>
-- map 함수는 TestList의 각 요소에 이 lambda 함수를 적용하여 새로운 값을 생성합니다.<br>
-- 리스트 변환: list(...)를 사용하여 map의 결과를 리스트로 변환합니다.<br>
-3. 결과 출력: print(TestList)를 통해 최종 결과인 [101, 102, 103, 104, 105]를 출력합니다.
+- lambda num: num + 100는 익명 함수로, 입력된 num에 100을 더하는 기능.<br>
+- map 함수는 TestList의 각 요소에 이 lambda 함수를 적용하여 새로운 값을 생성.<br>
+- 리스트 변환: list(...)를 사용하여 map의 결과를 리스트로 변환.<br>
+3. 결과 출력: print(TestList)를 통해 최종 결과인 [101, 102, 103, 104, 105]를 출력.
 
 <hr> 
 
@@ -394,4 +394,4 @@ p2 = "ca"  # 찾을 두 번째 패턴
 out = f"ab{fnCalculation(a, p1)}ca{fnCalculation(a, p2)}"  # 결과 문자열 생성
 print(out)  # 결과 출력
 ```
-<hr> 
+
